@@ -14,13 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let a : Int = 0
         
-        if ( a > 0 ){
-            print(">0")
+        let a = add(a : 4, b : 3)
+        
+        if  a > 0 {
+            print("a 值為：\( a )")
         }
         else{
-            print("<=0")
+            print("")
         }
         
         
