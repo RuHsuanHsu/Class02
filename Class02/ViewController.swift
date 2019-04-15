@@ -13,12 +13,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //
-        /*
-        hi,word
-        */
+        
+        let a : Int = 0
+        
+        if ( a > 0 ){
+            print(">0")
+        }
+        else{
+            print("<=0")
+        }
         
         
+    }
+    func add(a : Int,b : Int) -> Int {
+        return a + b
     }
 
 
